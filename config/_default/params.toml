@@ -288,8 +288,8 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
-  google_tag_manager = ""
+  google_analytics = "G-NPBNRYMELE"
+  google_tag_manager = "G-NPBNRYMELE"
 
 ############################
 ## Content Management System

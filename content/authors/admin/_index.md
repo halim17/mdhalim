@@ -1,7 +1,6 @@
 ---
 title: "Md Abdul Halim"
-bio: My research interests include biometeorology, remote sensing, climate change,
-  biochar, and cost-effective environmental sensor-logger systems.
+bio: My research interests include biometeorology, remote sensing, climate change, biochar, and cost-effective environmental sensor-logger systems.
 education:
   courses:
   - course: PhD in Biometeorology
@@ -10,7 +9,7 @@ education:
   - course: MSc in Forestry (Major in Remote Sensing)
     institution: Shahjalal University of Science & Technology
     year: 2006
-  - course: BSc in Forestry
+  - course: BSc in Forestry (Major in Remote Sensing)
     institution: Shahjalal University of Science & Technology
     year: 2005
 email: abdul.halim@mail.utoronto.ca
@@ -58,9 +57,9 @@ user_groups:
 <div style="text-align: justify"> 
 <p>I am a post-doctoral fellow (December 2019– onward) at the University of Toronto. My current research examines the energy balance of green roofs and greenhouse gas fluxes from green roof substrates.</p> 
 
-<p>I received a Ph.D. in biometeorology from the University of Toronto, where I studied some biogeophysical and biogeochemical aspects of post-fire and post-harvest boreal stands. Current post-doctoral project is an excellent augmentation of my Ph.D. work that allows me to use similar tools and techniques to solve problems in a different ecosystem. I also study biochar as a climate change mitigation tool. My overarching research goal is to study biometeorological issues to help achieve "climate-smart" management in managed ecosystems spanning from tropical to boreal biomes.</p> 
+<p>I received a Ph.D. in biometeorology (2020) from the <a href="https://academic.daniels.utoronto.ca/forestry/thomas-lab/">University of Toronto</a>, where I studied some biogeophysical and biogeochemical aspects of post-fire and post-harvest boreal stands. Current post-doctoral project is an excellent augmentation of my Ph.D. work that allows me to use similar tools and techniques to solve problems in a different ecosystem. I also study biochar as a climate change mitigation tool. My overarching research goal is to study biometeorological issues to help achieve "climate-smart" management in managed ecosystems spanning from tropical to boreal biomes.</p> 
 
-After receiving B.Sc. and M.Sc. degrees in Forestry from the Department of Forestry and Environmental Science, Shahjalal University of Science and Technology (SUST), Bangladesh, I worked as an Assistant Professor from 2009--2013 at the same university. My struggles with resources for teaching and research in Bangladesh has led me to use open-source teaching and learning materials extensively.  I am nourished by open-source resources and committed to contributing to their development. Additionally, to make climate research more accessible in countries where it is needed the most, I have co-founded a company <a href="https://credosense.com">CredoSense Inc.</a> that builds cost-effective environmental sensor-logger systems.</div>
+After receiving B.Sc. and M.Sc. degrees in Forestry from the Department of Forestry and Environmental Science, Shahjalal University of Science and Technology, Bangladesh, I worked as an Assistant Professor (2009--2013) at the same university. My struggles with resources for teaching and research in Bangladesh has led me to use open-source teaching and learning materials extensively. I am nourished by open-source resources and committed to contributing to their development. Additionally, to make climate research more accessible in countries where it is needed the most, I have co-founded a company <a href="https://credosense.com">CredoSense Inc.</a> that builds cost-effective environmental sensor-logger systems.</div>
 
 {{< icon name="download" pack="fas" >}} Download my latest {{< staticref "files/CV_MA-Halim2020.pdf" "newtab" >}}<b>CV</b>{{< /staticref >}}.
 

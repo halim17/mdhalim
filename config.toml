@@ -6,12 +6,13 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "MA HALIM"
+title = "MD A HALIM"
 
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://mdhalim.com/"
+
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
@@ -23,7 +24,8 @@ copyright = "&copy; {year} MA Halim"
 
 # Name of Academic theme folder in `themes/`.
 theme = "hugo-academic"
-color_theme = "forest(green)"
+color_theme = "custom_theme"
+
 
 # Get last modified date for content from Git?
 enableGitInfo = false

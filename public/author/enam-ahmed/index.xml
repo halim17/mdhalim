@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enam Ahmed | MD A HALIM</title>
+    <link>https://mdhalim.com/author/enam-ahmed/</link>
+      <atom:link href="https://mdhalim.com/author/enam-ahmed/index.xml" rel="self" type="application/rss+xml" />
+    <description>Enam Ahmed</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 MA Halim</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mdhalim.com/images/icon_hu01cb402298debe3dbc4de592b0036dcb_151942_512x512_fill_lanczos_center_2.png</url>
+      <title>Enam Ahmed</title>
+      <link>https://mdhalim.com/author/enam-ahmed/</link>
+    </image>
+    
+    <item>
+      <title>An allometric equation for estimating stem biomass of textitAcacia auriculiformis in the north-eastern region of Bangladesh</title>
+      <link>https://mdhalim.com/publication/deb-2012-kq/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://mdhalim.com/publication/deb-2012-kq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

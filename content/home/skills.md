@@ -30,7 +30,7 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python-language"
-  description = "Beginer"  
+  description = "Intermediate"  
   
 [[feature]]
   icon = "microchip"
@@ -51,8 +51,8 @@ subtitle = ""
   description = "Intermediate"
   
 [[feature]]
-  icon = "remote_sensing1"
-  icon_pack = "custom"
+  icon = "satellite"
+  icon_pack = "fas"
   name = "Remote Sensing"
   description = "Advanced"
 

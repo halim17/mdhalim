@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Romel Ahmed | MD A HALIM</title>
+    <link>https://mdhalim.com/author/romel-ahmed/</link>
+      <atom:link href="https://mdhalim.com/author/romel-ahmed/index.xml" rel="self" type="application/rss+xml" />
+    <description>Romel Ahmed</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 MA Halim</copyright><lastBuildDate>Mon, 01 Sep 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mdhalim.com/images/icon_hu01cb402298debe3dbc4de592b0036dcb_151942_512x512_fill_lanczos_center_2.png</url>
+      <title>Romel Ahmed</title>
+      <link>https://mdhalim.com/author/romel-ahmed/</link>
+    </image>
+    
+    <item>
+      <title>State of urban nurseries in Bangladesh: A case study from the north-eastern region</title>
+      <link>https://mdhalim.com/publication/ahmed-2008-nt/</link>
+      <pubDate>Mon, 01 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>https://mdhalim.com/publication/ahmed-2008-nt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management and economic value of textitSchumannianthus dichotoma in rural homesteads in the Sylhet region of Bangladesh</title>
+      <link>https://mdhalim.com/publication/ahmed-2007-ue/</link>
+      <pubDate>Sat, 01 Dec 2007 00:00:00 +0000</pubDate>
+      <guid>https://mdhalim.com/publication/ahmed-2007-ue/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -80,6 +80,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 # Show related content at the bottom of pages?
 show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
+
 ############################
 ## Contact details
 ##
@@ -125,6 +126,7 @@ appointment_url = ""
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
 #  ]
 contact_links = []
+
 
 ############################
 ## Social

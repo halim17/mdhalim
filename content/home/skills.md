@@ -9,10 +9,9 @@ title = "Skills"
 subtitle = ""
 
 # Showcase personal skills or business features.
-# 
 # Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: 
+# https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
   icon = "r-project"
@@ -33,6 +32,12 @@ subtitle = ""
   description = "Intermediate"  
   
 [[feature]]
+  icon = "satellite"
+  icon_pack = "fas"
+  name = "Remote Sensing"
+  description = "Advanced"
+
+[[feature]]
   icon = "microchip"
   icon_pack = "fas"
   name = "Embeeded Electronics"
@@ -45,23 +50,22 @@ subtitle = ""
   description = "Universal Design for Learning"
 
 [[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Data Analysis"
+  description = "Advanced"
+
+[[feature]]
+  icon = "pen-nib"
+  icon_pack = "fas"
+  name = "Academic Writting"
+  description = "Proficient"
+
+[[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
   name = "Photography"
-  description = "Intermediate"
-  
-[[feature]]
-  icon = "satellite"
-  icon_pack = "fas"
-  name = "Remote Sensing"
-  description = "Advanced"
-
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
+  description = "Advanced Beginner"
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.

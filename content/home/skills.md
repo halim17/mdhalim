@@ -16,56 +16,56 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R-language"
-  description = "Advanced"
+  name = "R"
+  description = "Statistical Programming Language"
   
 [[feature]]
   icon = "cuttlefish"
   icon_pack = "fab"
-  name = "C-language"
-  description = "Intermediate"
+  name = "C"
+  description = "Programming Language"
 
 [[feature]]
   icon = "python"
   icon_pack = "fab"
-  name = "Python-language"
-  description = "Intermediate"  
+  name = "Python"
+  description = "Programming Language"  
   
 [[feature]]
   icon = "satellite"
   icon_pack = "fas"
   name = "Remote Sensing"
-  description = "Advanced"
+  description = "Satellite, LiDAR, UAV"
 
 [[feature]]
   icon = "microchip"
   icon_pack = "fas"
-  name = "Embeeded Electronics"
-  description = "Advanced Beginner"
+  name = "Embedded Electronics"
+  description = "AVR & ESP uC Families"
 
 [[feature]]
   icon = "chalkboard-teacher" 
   icon_pack = "fas"
   name = "Teaching"
-  description = "Universal Design for Learning"
+description = "Universal Design for Learning"
 
 [[feature]]
   icon = "chart-bar"
   icon_pack = "fas"
   name = "Data Analysis"
-  description = "Advanced"
+  description = "Statistical & Data Science Approaches"
 
 [[feature]]
   icon = "pen-nib"
   icon_pack = "fas"
-  name = "Academic Writting"
-  description = "Proficient"
+  name = "Academic Writing"
+# description = "Proficient"
 
 [[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
   name = "Photography"
-  description = "Advanced Beginner"
+  description = "Hobbyist Landscape & Portrait Photographer"
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.

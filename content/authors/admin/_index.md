@@ -19,10 +19,8 @@ interests:
 - Deep learning
 - Biometeorology
 - Biogeochemistry
-- Urban climatology
-- Forest ecology
-- Global environmental change
-- Biochar
+- Forest and urban ecology
+- Global change
 - Affordable environmental sensor-logger systems
 organizations:
 - name: University of Toronto

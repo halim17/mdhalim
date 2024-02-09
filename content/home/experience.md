@@ -23,8 +23,8 @@ date_format = "Jan 2006"
   company = "University of Toronto"
   company_url = "https://utoronto.ca/"
   location = "Toronto, Canada"
-  date_start = "2019-12-01"
-  date_end = ""
+  date_start = "Dec 2019"
+  date_end = "Mar 2022"
   description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
 
 [[experience]]

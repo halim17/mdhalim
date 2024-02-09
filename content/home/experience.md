@@ -24,8 +24,8 @@ date_format = "Jan 2006"
   company = "University of Toronto"
   company_url = "https://utoronto.ca/"
   location = "Toronto, Canada"
-  date_start = "2023-03-01"
-  date_end = " "
+  date_start = "Mar 2023"
+  date_end = 
   description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
 
 
@@ -34,9 +34,9 @@ date_format = "Jan 2006"
   company = "University of Toronto"
   company_url = "https://utoronto.ca/"
   location = "Toronto, Canada"
-  date_start = "2022-04-01"
-  date_end = "2023-02-28"
-  description = """Developing an AI-based remote sensing tools for monitoring the success of Toronto’s green roofs"""
+  date_start = "April 2022"
+  date_end = "Feb 2023"
+  description = """Developing an AI-based remote sensing tools for monitoring the success of Toronto’s green roofs."""
 
 
 [[experience]]
@@ -44,8 +44,8 @@ date_format = "Jan 2006"
   company = "University of Toronto"
   company_url = "https://utoronto.ca/"
   location = "Toronto, Canada"
-  date_start = "2019-12-01"
-  date_end = "2022-03-31"
+  date_start = "Dec 2019"
+  date_end = "Mar 2022"
   description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
 
 [[experience]]
@@ -74,7 +74,7 @@ date_format = "Jan 2006"
   - Facilitate on-site departmental TA training sessions.
   - Run microteaching sessions and workshops. 
   - Evaluated teaching dossiers and in-class observations for professional development certificate programs.
-  - Develop and facilitat workshops on open educational resources and effective science communications
+  - Develop and facilitate workshops on open educational resources and effective science communications
   """
 
 [[experience]]

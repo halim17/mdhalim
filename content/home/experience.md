@@ -34,9 +34,9 @@ date_format = "Jan 2006"
   company = "University of Toronto"
   company_url = "https://utoronto.ca/"
   location = "Toronto, Canada"
-  date_start = "Dec 2019"
-  date_end = "Mar 2022"
-  description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
+  date_start = "2022-04-01"
+  date_end = "2023-02-28"
+  description = """Developing an AI-based remote sensing tools for monitoring the success of Toronto’s green roofs"""
 
 
 [[experience]]
@@ -44,8 +44,8 @@ date_format = "Jan 2006"
   company = "University of Toronto"
   company_url = "https://utoronto.ca/"
   location = "Toronto, Canada"
-  date_start = "Dec 2019"
-  date_end = "Mar 2022"
+  date_start = "2019-12-01"
+  date_end = "2022-03-31"
   description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
 
 [[experience]]

@@ -48,6 +48,7 @@ date_format = "Jan 2006"
   date_end = "Mar 2022"
   description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
 
+
 [[experience]]
   title = "Course Instructor - Conservation of Tropical & Subtropical Forests"
   company = "Graduate Department of Forestry, University of Toronto"

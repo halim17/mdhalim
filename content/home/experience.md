@@ -95,6 +95,21 @@ settings from satellite data"""
  """
 
 [[experience]]
+  title = "Associate Professor"
+  company = "Shahjalal University of Science & Technology"
+  company_url = "https://www.sust.edu"
+  location = "Sylhet, Bangladesh"
+  date_start = "2022-05-18"
+  date_end = "2023-09-22"
+  description = """Designed, developed, and taught the following courses with average class size ~40:
+  - *Forest Mensuration and Inventory* (undergraduate course).
+  Additional responsibilities include:
+  - Grade assignments and final examinations for these courses. 
+  - University-wide administrative duties including serving curriculum design and thesis evaluation committees.
+  - Supervised ~3 undergraduate and M.Sc. research projects. 
+  """
+
+[[experience]]
   title = "Assistant Professor"
   company = "Shahjalal University of Science & Technology"
   company_url = "https://www.sust.edu"
@@ -106,7 +121,7 @@ settings from satellite data"""
   - *Forestry and Climate Change* (graduate course).
   - *Remote Sensing and GIS* (undergraduate course). 
   
-  Additional responsiblities include:
+  Additional responsibilities include:
   - Grade assignments and final examinations for these courses. 
   - University-wide administrative duties including serving curriculum design and thesis evaluation committees.
   - Supervised ~30 undergraduate and M.Sc. research projects. 

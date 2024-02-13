@@ -5,7 +5,7 @@
     <link>https://mdhalim.com/</link>
       <atom:link href="https://mdhalim.com/index.xml" rel="self" type="application/rss+xml" />
     <description>MD A HALIM</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 Md A Halim</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 Md A Halim</copyright><lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mdhalim.com/images/icon_hu5a903798307a77d447c7b20c94af41b8_618134_512x512_fill_lanczos_center_3.png</url>
       <title>MD A HALIM</title>
@@ -51,6 +51,180 @@
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping the Unseen: Spatial Interpolation with R</title>
+      <link>https://mdhalim.com/post/spatial-interpolation/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://mdhalim.com/post/spatial-interpolation/</guid>
+      <description>&lt;h1 id=&#34;mapping-the-unseen-spatial-interpolation-with-r&#34;&gt;Mapping the Unseen: Spatial Interpolation with R&lt;/h1&gt;
+&lt;p&gt;Ever wondered how to transform scattered data points into a coherent spatial map that tells a story? Today, we&amp;rsquo;re embarking on a cartographic adventure, exploring the realms of &lt;strong&gt;Ordinary Kriging&lt;/strong&gt; and &lt;strong&gt;Variograms&lt;/strong&gt; with R, your trusty analytical steed. Fear not, brave explorer—while the journey sounds arduous, you won&amp;rsquo;t need a PhD in Geostatistics to follow along!&lt;/p&gt;
+&lt;h2 id=&#34;what-is-ordinary-kriging-anyway&#34;&gt;What is Ordinary Kriging anyway?&lt;/h2&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re a treasure hunter with a map dotted with clues about where to find hidden gold. But, there&amp;rsquo;s a twist: the map doesn&amp;rsquo;t cover every inch of the land, leaving some treasures undiscovered. What if I told you there&amp;rsquo;s a magical tool that can predict where these unseen treasures lie, using the clues you already have? Welcome to the world of &lt;strong&gt;Ordinary Kriging&lt;/strong&gt;, your cartographic crystal ball.&lt;/p&gt;
+&lt;p&gt;Ordinary Kriging is a statistical technique used in the realm of geographical information systems (GIS) to predict unknown values across a spatial area, based on known data points. Think of it as creating a smooth, continuous surface over a map, where each point on that surface is a treasure chest, and the contents of unopened chests are estimated based on the treasures found in chests you&amp;rsquo;ve already opened.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s break Ordinary Krigging down into steps that even a pirate without a compass could follow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gathering Data&lt;/strong&gt;: First, you need a map of known treasures. In spatial analysis, this means collecting data points with known values across your area of interest. These could be measurements like rainfall, temperature, or, in our whimsical analogy, spots where treasure has been found.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Understanding Relationships&lt;/strong&gt;: Ordinary Kriging relies on understanding how these data points relate to each other across space. This relationship is modeled through something called a &lt;strong&gt;variogram&lt;/strong&gt;, which helps us see patterns like, &amp;ldquo;The closer the treasures, the more similar their value.&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Predicting the Unseen&lt;/strong&gt;: With the variogram&amp;rsquo;s guidance, Ordinary Kriging then predicts the values at locations where we haven&amp;rsquo;t dug yet. It cleverly uses the pattern it sees in the known data to estimate what lies beneath the uncharted spots on our map.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Creating a Continuous Map&lt;/strong&gt;: The result is a treasure map filled with predictions, showing us where we might find gold (or whatever we&amp;rsquo;re mapping) across the entire area. This is incredibly useful for making informed decisions without having to dig up the whole land.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, you might wonder why it&amp;rsquo;s called &amp;ldquo;Ordinary&amp;rdquo; Kriging. It&amp;rsquo;s not because it&amp;rsquo;s mundane but because it assumes the mean (average value) is constant and unknown across the entire study area. This is a common scenario in many spatial analysis projects, making Ordinary Kriging a versatile and widely used approach.&lt;/p&gt;
+&lt;p&gt;Ordinary Kriging is like having a wizard in your pocket, especially when dealing with environmental data, natural resources, or any field where spatial patterns matter. It allows us to make educated guesses about areas they haven&amp;rsquo;t directly observed, saving time, resources, and potentially guiding them to untold riches.&lt;/p&gt;
+&lt;p&gt;While the concept might sound complex at first, Ordinary Kriging is essentially about using what we know to intelligently predict what we don&amp;rsquo;t. By understanding the spatial relationships in our data, we can fill in the blanks on our maps, making invisible patterns visible and uncovering insights that guide our decisions in the real world.&lt;/p&gt;
+&lt;h2 id=&#34;gathering-your-tools&#34;&gt;Gathering Your Tools&lt;/h2&gt;
+&lt;p&gt;Before we set sail, ensure your toolkit is equipped with R and the following magical packages: &lt;code&gt;gstat&lt;/code&gt;, &lt;code&gt;sp&lt;/code&gt;, &lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;sf&lt;/code&gt;, and &lt;code&gt;raster&lt;/code&gt;. These are the arcane ingredients we&amp;rsquo;ll use to conjure our maps from mere numbers.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Load the necessary spellbooks
+library(gstat)
+library(sp)
+library(ggplot2)
+library(sf)
+library(raster)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;preparing-the-data-scroll&#34;&gt;Preparing the Data Scroll&lt;/h2&gt;
+&lt;p&gt;Our journey begins with a scroll of data, my_data.csv. This ancient manuscript contains the locations and attributes of various traits across different realms (in this case, national parks).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Summoning the data
+my_data &amp;lt;- read.csv(&amp;quot;/path/to/your/my_data.csv&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We&amp;rsquo;ll transform this humble CSV into a SpatialPointsDataFrame, marking each point&amp;rsquo;s position on the Earth&amp;rsquo;s surface.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;coordinates(my_data) &amp;lt;- ~lon+lat  # Binding the spell of location
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;consulting-the-variogram-oracle&#34;&gt;Consulting the Variogram Oracle&lt;/h2&gt;
+&lt;p&gt;The Variogram Oracle reveals how our traits relate across distances, guiding our interpolation quest. We seek its wisdom to craft a model that describes these spatial relationships.&lt;/p&gt;
+&lt;p&gt;In the adventurous quest of spatial analysis, where we aim to unveil the hidden treasures of data scattered across the land, the &lt;strong&gt;Variogram&lt;/strong&gt; emerges as our mystical compass. It&amp;rsquo;s not a map of where the treasures are, but rather a guide to understanding how these treasures—be they gold, raindrops, or trees—relate to each other across the distances that separate them.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-in-a-variogram&#34;&gt;What is in a Variogram?&lt;/h3&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re planting flowers in your garden. You&amp;rsquo;ve noticed that flowers planted close together tend to grow similarly, while those further apart might not share the same fate. A variogram captures this idea of spatial correlation—how one thing relates to another thing over space—and puts it into a form we can use to predict how flowers (or any other data points) will behave across your entire garden.&lt;/p&gt;
+&lt;p&gt;At its heart, a variogram is a graph that shows the relationship between the spatial distance and the similarity (or dissimilarity) of data points. Here&amp;rsquo;s how it works:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Distance and Difference&lt;/strong&gt;: First, we measure how far apart our data points are and calculate the difference in their values (like height, temperature, or soil moisture).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plotting the Relationship&lt;/strong&gt;: These differences are then squared, averaged, and plotted against the distances to produce the variogram. The result is a curve that rises as the distance increases, illustrating how the similarity between data points decreases as they move further apart.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Key Features of a Variogram&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nugget:&lt;/em&gt; The value at which the variogram starts on the y-axis, indicating the variance at zero distance (often due to measurement errors or microscale variations not captured by the sampling).&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Range:&lt;/em&gt; The distance at which the variogram levels off, indicating the limit beyond which data points do not influence each other.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Partial Sill (Psill):&lt;/em&gt; The height of the variogram  plateau minus the nugget, representing the variance attributed to spatial structure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Variograms are the backbone of spatial interpolation methods like Kriging. They allow us to model the spatial structure of our data, answering critical questions like, &amp;ldquo;How far apart do two points need to be before they&amp;rsquo;re more different than alike?&amp;rdquo; With this knowledge, we can predict values at unmeasured locations with greater accuracy, creating a continuous surface or map from discrete data points.&lt;/p&gt;
+&lt;p&gt;Interpreting a variogram is both an art and a science, requiring an understanding of the underlying spatial processes that generated your data. By fitting a model to the empirical variogram, we can simulate the spatial structure and use this model for making predictions through Kriging.&lt;/p&gt;
+&lt;p&gt;Variograms offer a window into the spatial soul of our data, providing insights into how things are connected across the landscape. They are essential tools for anyone looking to map the unseen or understand the spatial dynamics at play. Whether you&amp;rsquo;re a scientist, a data enthusiast, or simply curious about the patterns that shape our world, mastering variograms opens up a universe of possibilities for exploration and discovery.&lt;/p&gt;
+&lt;p&gt;So next time you look at a map or consider the distance between things, remember the variogram: your guide to decoding the mysteries of space and making the invisible, visible.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;variogram_modelling &amp;lt;-
+  function(mod,
+           data,
+           psill_t,
+           model_t = c(&amp;quot;Sph&amp;quot;, &amp;quot;Exp&amp;quot;, &amp;quot;Lin&amp;quot;, &amp;quot;Mat&amp;quot;),
+           range_t,
+           nugget_t) {
+    variogram &amp;lt;- variogram(mod, data)
+
+    variogram.model &amp;lt;-
+      fit.variogram(variogram,
+                    model = vgm(
+                      psill = psill_t,
+                      model = model_t,
+                      range = range_t,
+                      nugget =  nugget_t
+                    ))
+
+    print(plot(variogram, model = variogram.model))
+    return (variogram.model)
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With our variogram model in hand, we&amp;rsquo;re ready to perform Ordinary Kriging—the art of predicting unseen values across our map.&lt;/p&gt;
+&lt;h2 id=&#34;the-kriging-incantation&#34;&gt;The Kriging Incantation&lt;/h2&gt;
+&lt;p&gt;Armed with our variogram&amp;rsquo;s guidance, we cast the Ordinary Kriging spell. This powerful magic interpolates values across a grid, revealing the hidden patterns of our traits.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ordinary_kriging &amp;lt;- function(...) {
+    ordinary_kriging &amp;lt;-
+  function(data,
+           krig_formula,
+           variog_mod,
+           shp_file_path,
+           var_name,
+           grid_count = 200) {
+
+    aoi &amp;lt;- st_read(shp_file_path)
+    ext &amp;lt;- extent(aoi)
+
+    # Define a grid over which to interpolate
+    gridded_data &amp;lt;-
+      expand.grid(
+        lon = seq(ext[1], ext[2], length.out = grid_count),
+        lat = seq(ext[3], ext[4], length.out = grid_count)
+      )
+
+    coordinates(gridded_data) &amp;lt;- ~ lon + lat
+    slot(gridded_data, &amp;quot;proj4string&amp;quot;) &amp;lt;- crs_wgs84
+
+    # Ordinary kriging
+    kriging_result &amp;lt;-
+      krige(
+        formula = krig_formula,
+        locations = data, # knp
+        newdata = gridded_data,
+        model = variog_mod
+      )
+
+    # Convert to a dataframe for plotting
+    kriging_df &amp;lt;- as.data.frame(kriging_result)
+
+    # Convert kriging results to RasterLayer
+    kriging_raster &amp;lt;-
+      rasterFromXYZ(kriging_df[, c(&amp;quot;lon&amp;quot;, &amp;quot;lat&amp;quot;, &amp;quot;var1.pred&amp;quot;)])
+
+    masked_raster &amp;lt;- mask(kriging_raster, aoi)
+    # Convert masked raster back to a dataframe for ggplot2
+    masked_df &amp;lt;- as.data.frame(rasterToPoints(masked_raster))
+
+    p &amp;lt;- ggplot() +
+      geom_tile(data = masked_df, aes(x = x, y = y, fill = var1.pred)) +
+      #scale_fill_continuous(type = &amp;quot;viridis&amp;quot;) +
+      scale_fill_gradientn(colors = c(&amp;quot;darkgreen&amp;quot;, &amp;quot;yellow&amp;quot;, &amp;quot;red&amp;quot;),
+                          values = scales::rescale(c(0, 1/2, 1))) + # Adjust positions if needed
+      coord_fixed() +
+      coord_fixed() +
+      theme_bw() +
+      theme(legend.position = c(0.05, .83)) +
+      labs(fill = var_name, x = &amp;quot;Longitude&amp;quot;, y = &amp;quot;Latitude&amp;quot;)
+
+    print(p)
+
+    fname &amp;lt;- paste0(getwd(), &amp;quot;/&amp;quot;, var_name, &amp;quot;.png&amp;quot;)
+    ggsave(
+      fname,
+      width = 12,
+      height = 8,
+      units = &amp;quot;in&amp;quot;,
+      dpi = 500
+    )
+    message(paste0(&amp;quot;Done saving file to: &amp;quot;), fname)
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we chant the final words of our kriging incantation, a map materializes before our eyes. This is no ordinary map, but a detailed representation of our data&amp;rsquo;s spatial patterns, rendered visible through the power of R and our analytical prowess.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Perform the kriging on our example data
+ordinary_kriging(data = my_data, ...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;embarking-on-your-own-adventure&#34;&gt;Embarking on Your Own Adventure&lt;/h2&gt;
+&lt;p&gt;Now that you&amp;rsquo;ve witnessed the power of spatial interpolation with R, why not embark on your own cartographic quest? With the code spells provided and your data scroll in hand, you&amp;rsquo;re well-equipped to reveal the hidden patterns of your own realm.&lt;/p&gt;
+&lt;p&gt;Remember, the path to mastery is through practice and exploration. May your maps be many, and your insights profound!&lt;/p&gt;
+&lt;p&gt;Happy mapping, fellow explorers! Until our paths cross again in the realm of data and beyond.&lt;/p&gt;
 </description>
     </item>
     

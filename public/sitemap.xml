@@ -11,17 +11,50 @@
     <loc>https://mdhalim.com/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://mdhalim.com/publication-type/2/</loc>
-    <lastmod>2020-12-07T14:09:10-05:00</lastmod>
-  </url><url>
     <loc>https://mdhalim.com/authors/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/categories/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/tag/kriging/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/tag/mapping/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/post/spatial-interpolation/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/author/md-abdul-halim/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/post/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/tag/r/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/category/r-programming/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/tag/spatial-analysis/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/category/spatial-analysis/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/tags/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mdhalim.com/publication-type/2/</loc>
     <lastmod>2020-12-07T14:09:10-05:00</lastmod>
   </url><url>
     <loc>https://mdhalim.com/publication/karim-2020-og/</loc>
     <lastmod>2020-12-07T14:09:00-05:00</lastmod>
-  </url><url>
-    <loc>https://mdhalim.com/</loc>
-    <lastmod>2020-12-07T14:09:10-05:00</lastmod>
   </url><url>
     <loc>https://mdhalim.com/author/md-abdul-halim/</loc>
     <lastmod>2020-12-07T14:09:10-05:00</lastmod>
@@ -110,12 +143,6 @@
     <loc>https://mdhalim.com/author/s-c-thomas/</loc>
     <lastmod>2020-12-07T14:09:04-05:00</lastmod>
   </url><url>
-    <loc>https://mdhalim.com/tags/</loc>
-    <lastmod>2020-12-07T14:09:05-05:00</lastmod>
-  </url><url>
-    <loc>https://mdhalim.com/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mdhalim.com/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -123,9 +150,6 @@
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://mdhalim.com/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mdhalim.com/author/md-abdul-halim/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mdhalim.com/author/han-y-h-chen/</loc>
@@ -180,9 +204,6 @@
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mdhalim.com/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mdhalim.com/categories/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mdhalim.com/category/demo/</loc>

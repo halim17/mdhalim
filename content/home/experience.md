@@ -18,6 +18,16 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
+[[experience]]
+  title = "NSERC Post-Doctoral Fellow"
+  company = "University of Toronto"
+  company_url = "https://utoronto.ca/"
+  location = "Toronto, Canada"
+  date_start = "2019-12-01"
+  date_end = "2022-03-31"
+  description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
+
 [[experience]]
   title = "Course Instructor - Conservation of Tropical & Subtropical Forests"
   company = "Graduate Department of Forestry, University of Toronto"

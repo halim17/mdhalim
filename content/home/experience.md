@@ -18,37 +18,6 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-
-[[experience]]
-  title = "Schmidt AI in Science Post-Doctoral Fellow"
-  company = "University of Toronto"
-  company_url = "https://utoronto.ca/"
-  location = "Toronto, Canada"
-  date_start = "Mar 2023"
-  date_end = 
-  description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
-
-
-[[experience]]
-  title = "School of Cities Post-Doctoral Fellow"
-  company = "University of Toronto"
-  company_url = "https://utoronto.ca/"
-  location = "Toronto, Canada"
-  date_start = "April 2022"
-  date_end = "Feb 2023"
-  description = """Developing an AI-based remote sensing tools for monitoring the success of Toronto’s green roofs."""
-
-
-[[experience]]
-  title = "NSERC Post-Doctoral Fellow"
-  company = "University of Toronto"
-  company_url = "https://utoronto.ca/"
-  location = "Toronto, Canada"
-  date_start = "Dec 2019"
-  date_end = "Mar 2022"
-  description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
-
-
 [[experience]]
   title = "Course Instructor - Conservation of Tropical & Subtropical Forests"
   company = "Graduate Department of Forestry, University of Toronto"

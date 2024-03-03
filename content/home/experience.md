@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   location = "Toronto, Canada"
   date_start = "2023-03-01"
   date_end = ""
-  description = """A deep-learning strategy to determine point-source emissions of methane in urban
+  description = """<b>Project: </b>A deep-learning strategy to determine point-source emissions of methane in urban
 settings from satellite data"""
 
 
@@ -36,7 +36,7 @@ settings from satellite data"""
   location = "Toronto, Canada"
   date_start = "2022-04-01"
   date_end = "2023-02-28"
-  description = """Developing an AI-based remote sensing tools for monitoring the success of Toronto’s green roofs."""
+  description = """<b>Project: </b>Developing an AI-based remote sensing tools for monitoring the success of Toronto’s green roofs."""
 
 
 [[experience]]

@@ -26,8 +26,8 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Related to Forest Ecosystems"
+    tag = "Forest Ecosystems"
   
   [[content.filter_button]]
     name = "Other"

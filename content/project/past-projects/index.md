@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/BiometHalim
 slides: example
-summary: An example of using the in-built project page.
+summary: Descriptions, field notes, and key findings of my major finished projects.
 tags:
 - Urban Ecosystems
 - Forest Ecosystems

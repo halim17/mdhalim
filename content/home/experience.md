@@ -46,7 +46,7 @@ settings from satellite data"""
   location = "Toronto, Canada"
   date_start = "2019-12-01"
   date_end = "2022-03-31"
-  description = """Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
+  description = """<b>Project: </b>Studying the effects of biochar on microclimate and greenhouse gas fluxes of green roofs."""
 
 [[experience]]
   title = "Course Instructor - Conservation of Tropical & Subtropical Forests"
@@ -70,6 +70,7 @@ settings from satellite data"""
   date_start = "2018-01-01"
   date_end = "2019-12-31"
   description = """
+  Responsibilities include:  
   - Develop training sessions and resources for TAs.
   - Facilitate on-site departmental TA training sessions.
   - Run microteaching sessions and workshops. 

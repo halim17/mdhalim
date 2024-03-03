@@ -26,12 +26,12 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Related to Forest Ecosystems"
+    name = "On Forest Ecosystems"
     tag = "Forest Ecosystems"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "On Urban Ecosystems"
+    tag = "Urban Ecosystems"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

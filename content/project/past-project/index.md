@@ -12,8 +12,9 @@ links:
 slides: example
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-title: Internal Project
+- Urban Ecosystems
+- Forest Ecosystems
+title: Past Project
 url_code: ""
 url_pdf: ""
 url_slides: ""

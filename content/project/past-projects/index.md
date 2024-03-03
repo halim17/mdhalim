@@ -2,19 +2,19 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by DALL·E 2
   focal_point: Smart
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/BiometHalim
 slides: example
 summary: An example of using the in-built project page.
 tags:
 - Urban Ecosystems
 - Forest Ecosystems
-title: Past Project
+title: Past Projects
 url_code: ""
 url_pdf: ""
 url_slides: ""
